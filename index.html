@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Web App</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body background="IMG-Background/Background-IMG.avif">
+    <main>
+      <h1>The Dance Circle</h1>
+      <h1 class="fade-in">Home</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="classes.html">Classes</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="updates.html">Updates</a></li>
+        </ul>
+      </nav>
+      <form id="userForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required />
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="output"></p>
+      <h1>Move how you move best!</h1>
+      <div class="container">
+        <img src="IMG-Background/Breaking.jpg" />
+        <img src="IMG-Background/CambellLocking.jpg" />
+        <img src="IMG-Background/LiteFeet.jpg" />
+        <img src="IMG-Background/Tutting.jpg" />
+        <img src="IMG-Background/Popping .jpg" />
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
