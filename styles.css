@@ -1,12 +1,39 @@
 /* Set up the main styling for the form */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
   background-color: #f3f3f3;
+  background-size: cover;
+}
+
+header {
+  background-color: blue;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  color: #260c7b;
 }
 
 main {
@@ -14,7 +41,7 @@ main {
 }
 
 #userForm {
-  background-color: #e6e6fa;
+  background-color: #aeaeef;
   padding: 20px;
   border-radius: 8px;
 }
@@ -39,4 +66,10 @@ button {
 
 .container img:hover {
   width: 25%;
+}
+
+.flex-around {
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
